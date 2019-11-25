@@ -21,7 +21,7 @@ install:
 - travis_retry pip install -e .
 
 script:
-- flake8 --ignore N802,N806 `find . -name \*.py | grep -v setup.py | grep -v __init__.py`
+- flake8 --ignore N802,N806 `find . -name \*.py | grep -v Setup.py | grep -v __init__.py`
 - mkdir for_test
 - cd for_test
 - py.test --pyargs HW_10 --cov-report term-missing --cov=HW_10
