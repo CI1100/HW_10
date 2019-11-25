@@ -7,9 +7,12 @@ python:
 
 before_install:
  - wget http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
+ - wget https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data
 
 
 script:
  - python3 kmeans_iris.py --help
  - python3 kmeans_iris.py iris.data
+ - python3 HW_8.py --help
+ - python3 HW_8.py wine.data
 
