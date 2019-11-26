@@ -1,0 +1,6 @@
+README.md
+setup.py
+CEBD_1100_Week_10.egg-info/PKG-INFO
+CEBD_1100_Week_10.egg-info/SOURCES.txt
+CEBD_1100_Week_10.egg-info/dependency_links.txt
+CEBD_1100_Week_10.egg-info/top_level.txt

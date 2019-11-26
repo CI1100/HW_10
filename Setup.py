@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="CEBD-1100-Week-10", # Replace with your own username
+    name="HW_10", # Replace with your own username
     version="0.1.0",
     author="Olga",
     author_email="Olga@example.com",
